@@ -9,6 +9,8 @@ categories:
 
 推薦一個學習資源 [ThinkingElixir](https://thinkingelixir.com/available-courses/pattern-matching/)
 
+如果你還沒有 Elixir 的環境，建議可以從 [Livebook](https://livebook.dev/) 開始，Livebook 是一個可以在瀏覽器上執行 Elixir 程式的環境，可以很快的上手 Elixir 的語法。
+
 先來比較一下 python 跟 Elixir 的資料結構，特別注意 Elixir 是 functional programming language，所以資料結構都是 immutable 的，
 而且沒有 object method，不管是 List 或是 Map 存取都是用 function。
 
@@ -29,6 +31,7 @@ Python 的 Tuple 跟 Elixir 的 Tuple 很像，但是 Elixir 的 Tuple 是 immut
 
 
 # Map
+Elixir 的 Map 跟 Python 的 Dictionary 很像，但是同樣的 Elixir 的 Map 是 immutable 的，如果修改 Map 內的值，會得到新的 Map 。
 
 Python: Dictionary
 
@@ -55,4 +58,5 @@ Elixir: Map
     %{data | age: 31, city: "Taipei"}
 
 # List
-
+Elixir 的 List 跟 Python 的 List 很像，但是同樣的 Elixir 的 List 是 immutable 的，如果修改 List 內的值，會得到新的 List 。
+另外 Elixir 的 List 不像是 Array，不能直接存取第 n 個元素。一般 List 的用途是要搭配Pattern，例如 [head | tail] ，之後再說明。
