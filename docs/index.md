@@ -4,6 +4,8 @@
 
 Programmer. Coach. Entrepreneur.
 
+Founder of [PiiKeep](https://www.piikeep.com), I develop solutions for security applications.
+
 Founder of [Dorgie](https://www.dorgie.com), I consult with companies to craft AI and automation-driven applications.
 
 Passionately harnessing automation and AI to craft innovative solutions to real-world challenges.
